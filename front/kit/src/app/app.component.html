@@ -1,0 +1,41 @@
+
+
+
+
+  <p>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span style="font-size: 50px; margin-top: 50px;"routerLink=""><img style="width: 100px;" src="assets\photo\logo3.png"></span>
+        <span class="example-spacer"></span>
+        <button mat-button style="margin-right: 90px;margin-top: 50px;font-size: 30px;" routerLink="/meropry">Мероприятия</button>
+        <button mat-button style="margin-right: 90px;margin-top: 50px;font-size: 30px;" routerLink="/trans">Трансляции</button>
+        <button mat-button style="margin-right: 90px;margin-top: 50px;font-size: 30px;" routerLink="/konkurs">Конкурсы</button>
+        <button mat-button style="margin-right: 350px;margin-top: 50px;font-size: 30px;" routerLink="/news">Новости</button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" routerLink="/lcab">
+          <mat-icon routerLink="/lcab">menu</mat-icon>
+        </button>
+      </mat-toolbar-row>
+      
+
+  
+      <mat-toolbar-row>
+        <span></span>
+        <span class="example-spacer"></span>
+        
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+          <mat-icon>share</mat-icon>
+        </button>
+        
+      </mat-toolbar-row>
+      
+    </mat-toolbar>
+    </p>
+    <router-outlet></router-outlet>
+
+      <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span style="margin-left: 100px;"> Поддержка 89-99-548-65-23</span>
+        <span style="margin-left: 500px;">{{dt}}</span>
+      </mat-toolbar-row>
+    
+    

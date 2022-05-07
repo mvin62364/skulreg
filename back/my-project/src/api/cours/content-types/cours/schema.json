@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cours1",
+  "info": {
+    "singularName": "cours",
+    "pluralName": "cours1",
+    "displayName": "Cours"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "data": {
+      "type": "datetime"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
